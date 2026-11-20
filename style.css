@@ -56,3 +56,25 @@ body {
 .nav-links a:hover {
     color: #FF4F91;
 }
+.search-box {
+    background: #F4E9FF;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    border-radius: 20px;
+    border: 1px solid #E6D4FF;
+}
+
+.search-box span {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 13px;
+}
