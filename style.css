@@ -136,3 +136,41 @@ body {
     background: linear-gradient(135deg, #A78BFA, #FF5C93);
     transform: translateY(-3px);
 }
+.categories {
+    text-align: center;
+    padding: 45px 20px 20px;
+}
+
+.categories h2,
+.products-section h2 {
+    font-size: 27px;
+    letter-spacing: 2px;
+    color: #7C3F83;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.category-btn {
+    border: 1px solid #FFC2D6;
+    padding: 10px 23px;
+    border-radius: 25px;
+    background: #FFE1EC;
+    color: #A83265;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.category-btn:hover,
+.category-btn.active {
+    background: linear-gradient(135deg, #FF5C93, #A78BFA);
+    border-color: transparent;
+    color: white;
+    transform: translateY(-2px);
+}
