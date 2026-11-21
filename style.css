@@ -78,3 +78,21 @@ body {
     width: 100%;
     font-size: 13px;
 }
+.nav-actions {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-item small {
+    font-size: 11px;
+    margin-top: 4px;
+}
