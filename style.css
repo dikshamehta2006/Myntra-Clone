@@ -120,3 +120,19 @@ body {
     font-size: 25px;
     margin-bottom: 25px;
 }
+.shop-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #FF5C93, #FF9878);
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(255, 79, 145, .3);
+}
+
+.shop-btn:hover {
+    background: linear-gradient(135deg, #A78BFA, #FF5C93);
+    transform: translateY(-3px);
+}
