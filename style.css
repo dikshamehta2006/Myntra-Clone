@@ -320,3 +320,28 @@ footer p {
     opacity: 1;
     transform: translateY(0);
 }
+.no-products {
+    grid-column: 1 / -1;
+    padding: 40px;
+    color: #927C99;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1000px) {
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .search-box {
+        order: 4;
+        width: 100%;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
