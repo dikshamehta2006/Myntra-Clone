@@ -285,3 +285,19 @@ body {
     background: #FFD6E5;
     color: #FF347E;
 }
+footer {
+    background: linear-gradient(120deg, #E9D9FF, #FFDCE9);
+    color: #493453;
+    text-align: center;
+    padding: 35px 15px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    margin-bottom: 12px;
+}
+
+footer p {
+    font-size: 13px;
+    margin-top: 8px;
+}
