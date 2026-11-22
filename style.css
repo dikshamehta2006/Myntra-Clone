@@ -106,6 +106,17 @@ body {
     border-radius: 50%;
     padding: 3px 6px;
 }
+.hero {
+    min-height: 420px;
+    background:
+        linear-gradient(90deg, rgba(42, 24, 55, .65), rgba(42, 24, 55, .05)),
+        url("https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1600")
+        center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 50px 10%;
+    color: white;
+}
 .hero-content p {
     font-size: 17px;
     letter-spacing: 4px;
@@ -358,5 +369,36 @@ footer p {
 
     .nav-actions {
         gap: 12px;
+    }
+.hero {
+        min-height: 330px;
+        padding: 30px 7%;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-content h3 {
+        font-size: 20px;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .product-image {
+        height: 190px;
+    }
+
+    .categories h2,
+    .products-section h2 {
+        font-size: 21px;
+    }
+}
+@media (max-width: 380px) {
+    .product-container {
+        grid-template-columns: 1fr;
     }
 }
